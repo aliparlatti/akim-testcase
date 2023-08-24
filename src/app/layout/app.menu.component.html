@@ -1,0 +1,20 @@
+<div class="flex flex-col justify-between h-full">
+  <ul class="layout-menu">
+    <ng-container *ngFor="let item of model; let i = index">
+      <li
+        app-menuitem
+        *ngIf="!item.separator"
+        [item]="item"
+        [index]="i"
+        [root]="true"
+      ></li>
+      <li *ngIf="item.separator" class="menu-separator"></li>
+    </ng-container>
+  </ul>
+  <ul class="mb-[10px]">
+    <li class="flex flex-row space-x-4 px-[30px] py-4">
+      <i class="pi pi-file-export text-xl text-custom_text-500"></i>
+      <p class="text-xl text-custom_text-500">Çıkış Yap</p>
+    </li>
+  </ul>
+</div>

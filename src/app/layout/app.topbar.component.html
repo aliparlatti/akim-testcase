@@ -1,0 +1,40 @@
+<div
+  class="grid grid-cols-12 gap-2 p-4 h-[120px] sticky top-0 z-50 bg-white shadow-md"
+>
+  <div
+    class="col-span-12 sm:col-span-3 flex flex-row items-center justify-between px-4"
+  >
+    <a class="layout-topbar-logo" routerLink="">
+      <img src="assets/layout/images/logo.png" alt="logo" />
+    </a>
+
+    <button
+      #menubutton
+      class="p-link layout-menu-button layout-topbar-button"
+      (click)="layoutService.onMenuToggle()"
+    >
+      <i class="pi pi-align-right text-2xl text-custom-500"></i>
+    </button>
+  </div>
+
+  <div
+    class="col-span-12 sm:col-span-5 flex flex-row items-center justify-start hidden sm:flex"
+  >
+    <h2 class="text-2xl px-5 text-custom_text-500 mb-1">
+      {{ layoutService.title }}
+    </h2>
+  </div>
+
+  <div class="col-span-12 sm:col-span-4 hidden sm:flex">
+    <div
+      class="w-1/4 border-r border-gray-300 text-right h-full items-center flex justify-end"
+    >
+      <i class="pi pi-bell text-3xl text-custom_text-500 px-5"></i>
+    </div>
+    <div class="w-3/4 flex justify-end items-center space-x-5 px-4">
+      <p class="mb-0 text-custom_text-500">İSG Uzmanı</p>
+      <img src="assets/layout/images/user.png" alt="logo" />
+      <i class="pi pi-angle-down text-custom_text-500 text-2xl"></i>
+    </div>
+  </div>
+</div>

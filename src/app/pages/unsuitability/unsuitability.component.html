@@ -1,0 +1,99 @@
+<p-table
+  [columns]="cols"
+  [value]="unsuitabilityList"
+  [tableStyle]="{ 'min-width': '70rem' }"
+>
+  <ng-template pTemplate="header" let-columns>
+    <th *ngFor="let col of columns" class="text-left text-custom_text-500 pb-4">
+      <span *ngIf="col.field === 'desc'">
+        <button>
+          <i
+            class="pi pi-plus-circle text-2xl"
+            (click)="showDialog()"
+            label="Show"
+          ></i>
+        </button>
+        <p-dialog
+          header="Yeni Sütun"
+          [(visible)]="dialogVisible"
+          [style]="{
+            width: '420px',
+            position: 'absolute',
+            right: '5rem',
+            top: '180px',
+            background: 'white',
+            border: '1px solid white',
+            'border-radius': '16px',
+            padding: '16px 12px',
+            'box-shadow':
+              '0 2.8px 2.2px rgba(0, 0, 0, 0.034),0 6.7px 5.3px rgba(0, 0, 0, 0.048),0 12.5px 10px rgba(0, 0, 0, 0.06),0 22.3px 17.9px rgba(0, 0, 0, 0.072),0 41.8px 33.4px rgba(0, 0, 0, 0.086),0 100px 80px rgba(0, 0, 0, 0.12)'
+          }"
+          [breakpoints]="{ '480px': '300px' }"
+        >
+          <div
+            class="flex flex-col gap-2 mt-3 px-5 max-h-[150px] overflow-y-auto"
+          >
+            <!-- max-h-[150px] overflow-y-auto (Scroll özelliğinin görüntülenebilmesi için eklenmiştir)-->
+            <div *ngFor="let field of dynamicField" class="field-checkbox">
+              <div
+                class="flex flex-row rounded-lg border p-4"
+                [ngClass]="{
+                  'border-custom-500 bg-gray-100': isSelected(field),
+                  'border-gray-200': !isSelected(field)
+                }"
+              >
+                <input
+                  type="checkbox"
+                  [id]="field.field"
+                  [value]="field"
+                  [checked]="isSelected(field)"
+                  (change)="toggleFieldSelection(field)"
+                  class="text-custom-500"
+                />
+                <label class="ml-2 font-light" [for]="field.field">{{
+                  field.header
+                }}</label>
+              </div>
+            </div>
+          </div>
+        </p-dialog>
+      </span>
+      <span *ngIf="col.field !== 'desc'">
+        {{ col.header }}
+      </span>
+    </th>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowData let-columns="columns">
+    <tr
+      class="round bg-white mb-11"
+      (mouseenter)="rowData.hover = true"
+      (mouseleave)="rowData.hover = false"
+    >
+      <td *ngFor="let col of columns" class="py-4 px-2">
+        <ng-container *ngIf="col.field === 'otherCol'; else otherColumn">
+          <button
+            *ngIf="col.field === 'otherCol'"
+            class="btn bg-custom-100 rounded-lg p-1 text-custom-500"
+          >
+            Detayı Gör
+          </button>
+        </ng-container>
+        <ng-container *ngIf="col.field === 'desc'">
+          <i
+            class="pi pi-ellipsis-h text-gray-500"
+            [ngStyle]="{ visibility: rowData.hover ? 'visible' : 'hidden' }"
+          ></i>
+        </ng-container>
+        <ng-container *ngIf="col.field === 'createdDate'">
+          {{ rowData[col.field] | date : "dd.MM.yyyy" }}
+        </ng-container>
+        <ng-template #otherColumn>
+          <ng-container *ngIf="col.field !== 'createdDate'">{{
+            rowData[col.field]
+          }}</ng-container>
+        </ng-template>
+      </td>
+    </tr>
+    <div class="h-3"></div>
+  </ng-template>
+</p-table>

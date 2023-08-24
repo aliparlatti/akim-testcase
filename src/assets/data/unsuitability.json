@@ -1,0 +1,290 @@
+{
+  "data": [
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ001",
+      "createdDate": "2023-08-01T10:00:00Z",
+      "notifyingPerson": "John Doe",
+      "Dinamik Alan 1": "Custom Value 1",
+      "Dinamik Alan 2": "Custom Value 2"
+    },
+    {
+      "requestNumber": "REQ002",
+      "createdDate": "2023-08-05T14:30:00Z",
+      "notifyingPerson": "Jane Smith",
+      "Dinamik Alan 1": "Custom Value 3",
+      "Dinamik Alan 2": "Custom Value 4",
+      "Dinamik Alan 3": "Custom Value 5",
+      "Dinamik Alan 4": "Custom Value 6"
+    },
+    {
+      "requestNumber": "REQ003",
+      "createdDate": "2023-08-10T09:15:00Z",
+      "notifyingPerson": "Alice Johnson",
+      "Dinamik Alan 1": "Custom Value 6"
+    }
+  ]
+}
